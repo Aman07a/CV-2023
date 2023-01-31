@@ -45,3 +45,22 @@ a {
     color: #000;
 }
 
+@media(max-width: 1000px) {
+    .add-margin {
+        margin-bottom: 10px;
+    }
+
+    .minus-margin {
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .add-margin {
+        margin-bottom: 30px;
+    }
+
+    .minus-margin {
+        margin-bottom: -50px;
+    }
+}
