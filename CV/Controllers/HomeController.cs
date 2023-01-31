@@ -18,6 +18,41 @@ namespace CV.Controllers
 			return View();
 		}
 
+		public IActionResult Introduction()
+		{
+			return View();
+		}
+
+		public IActionResult Hobbies()
+		{
+			return View();
+		}
+
+		public IActionResult Motivation()
+		{
+			return View();
+		}
+
+		public IActionResult Educations()
+		{
+			return View();
+		}
+
+		public IActionResult Skills()
+		{
+			return View();
+		}
+
+		public IActionResult Work()
+		{
+			return View();
+		}
+
+		public IActionResult Internship()
+		{
+			return View();
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{

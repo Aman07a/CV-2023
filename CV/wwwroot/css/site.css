@@ -15,6 +15,7 @@ html {
 
 body {
     margin-bottom: 60px;
+    overflow-y: hidden;
 }
 
 * {
@@ -27,13 +28,14 @@ body {
     min-height: calc(92vh - 60px);
     background-image: linear-gradient( to right, #002755, #0a3c6d, #155186, #1f68a0, #2980b9);
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 83vh;
+    height: 82vh;
     min-height: 100%;
 }
 
@@ -125,4 +127,10 @@ main {
 
 .menu.active .toggle {
     transform: rotate(315deg);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
 }

@@ -1,0 +1,47 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    min-height: calc(92vh - 60px);
+    background-image: linear-gradient( to right, #002755, #0a3c6d, #155186, #1f68a0, #2980b9);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 82vh;
+    min-height: 100%;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
