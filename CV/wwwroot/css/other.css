@@ -131,3 +131,7 @@ a {
 .photo {
     margin-left: 4em;
 }
+
+.min-height {
+    min-height: 100px;
+}
