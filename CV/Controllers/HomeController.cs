@@ -38,6 +38,11 @@ namespace CV.Controllers
 			return View();
 		}
 
+		public IActionResult Courses()
+		{
+			return View();
+		}
+
 		public IActionResult Skills()
 		{
 			return View();
